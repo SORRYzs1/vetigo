@@ -31,7 +31,10 @@ main {
     --gray-400: #94a3b9;
     --gray-200: #e2e8f0;
     --purple: #7c3aed;
+    --light-purple: #9F67FF;
     --white: #ffff;
+
+
 }
 .descricao {
     margin-bottom: 2.5rem;
@@ -63,9 +66,17 @@ main {
     font-weight: 700;
     margin-bottom: 2rem;
     color: #ffff;
+
+}
+
+.login button:hover{
+    background: var(--light-purple);
+    transition: 0.3s;
+    cursor:pointer;
 }
 .login input::placeholder {
     color: var(--gray-400);
+
 }
 .login label {
     color: var(--gray-800);
@@ -105,20 +116,17 @@ main {
         background: none;
         justify-content: flex-start;
         margin: 2.5rem  7rem 7rem;
-
+        
         height: fit-content;
     }
 
     header img {
         width: 10rem;
     }
-
     main {
         margin-inline: 7rem;
         max-width: 24rem ;
         padding: 0;
-
-
     }
     .bg-desktop{
         display : block;
@@ -126,5 +134,16 @@ main {
     }
     .conteudo {
         width: 100%;
+        flex-direction: column ;
+        align-items: center;
     }
+    .descricao h1 {
+        font-size: 2.5rem;
+    }
+    .descricao p{
+        font-size: 1rem;
+    }
+
+
+
 }

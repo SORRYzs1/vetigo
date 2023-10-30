@@ -32,10 +32,7 @@ main {
     --gray-200: #e2e8f0;
     --purple: #7c3aed;
     --white: #ffff;
-
-
 }
-
 .descricao {
     margin-bottom: 2.5rem;
 }
@@ -55,9 +52,8 @@ main {
 .login input:hover,
 .login input:focus{
     outline: 1px solid var(--purple);
-
+    
 }
-
 .login button {
     margin-top: 1rem;
     padding-block: 1rem;
@@ -67,7 +63,7 @@ main {
     border-radius: 0.25rem;
     font-size: 1rem;
     font-weight: 700;
-
+    margin-bottom: 2rem;
     color: #ffff    ;
 
 }
@@ -90,6 +86,16 @@ main {
     font-size: 0.875rem;
     font-weight: 600;
 }
+
 .login a:houver{
     text-decoration: underline;
+}
+
+.login >p{
+    color: var(--gray-600);
+
+}
+.login >p a{
+    font-weight: 700;
+    font-size: 1rem;
 }
